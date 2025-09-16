@@ -4,11 +4,11 @@ variable "region" {
 
 # Ubuntu 22.04 AMI for us-east-1 (check & update if region is different)
 variable "ami" {
-  default = "ami-0557a15b87f6559cf"
+  default = "ami-0360c520857e3138f"
 }
 
 variable "instance_type" {
-  default = "t2.micro"
+  default = "t2.medium"
 }
 
 variable "key_name" {
