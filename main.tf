@@ -29,7 +29,7 @@ resource "aws_instance" "my_ec2" {
   vpc_security_group_ids = [aws_security_group.allow_ssh.id]
 
   tags = {
-    Name = "Terraform-EC2"
+    Name = "Ubuntu-EC2"
   }
 }
 
